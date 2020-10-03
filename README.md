@@ -8,8 +8,8 @@
 3. Seluruh berkas **Tugas** pertemuan ke-_**n**_ disimpan pada direktori _**NIM/Praktikum-n**_.
    > - Berkas tugas berupa  `.java` dimana *satu class satu file*.
 4. **Push** berkas tugas anda ke repositori hasil *fork* pada *branch* **NIM** anda.
-5. Buat **Pull Request** untuk **Merge** *branch* **NIM** dengan *branch* **master** pada repositori ini.
-6. Tugas anda dinyatakan **diterima** jika **branch NIM** anda telah _**merged**_ dengan **branch master** repositori ini.  
+5. Buat **Pull Request** untuk **Merge** *branch* **NIM** dengan *branch* **main** pada repositori ini.
+6. Tugas anda dinyatakan **diterima** jika **branch NIM** anda telah _**merged**_ dengan **branch nim** anda repositori ini.  
 
 ## Bagaimana Cara Mengetahui Jika **Branch NIM** telah _**Merged**_ dengan Repositori ini ?
  - Anda dapat memantau repositori ini.
