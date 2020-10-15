@@ -8,7 +8,7 @@ public class TugasPraktikum3 {
         double a = x.nextDouble();
         double b = x.nextDouble();
 
-        panjangKapal = h * Math.tan(Math.toRadians(a)) - h / Math.tan(Math.toRadians(b));
+        panjangKapal = h * (Math.tan(Math.toRadians(a)) - Math.tan(Math.toRadians(b)));
 
         System.out.println(String.format("%.1f", panjangKapal) + " m");
 
