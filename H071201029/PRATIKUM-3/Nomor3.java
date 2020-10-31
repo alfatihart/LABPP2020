@@ -10,11 +10,12 @@ public class Nomor3 {
         int b = 1; 
         int c = 0; 
 
-        for (i=1 ; i<n ; i++){
+        for (i=1 ; i<=n ; i++){
             System.out.print( c + "  ") ;
-            c=a + b;
             a=b;
             b=c;
+            c=a + b;
+            
         }
     }
 }
