@@ -50,6 +50,7 @@ class Soal2{
         String matrix = new String();
         String matrix2 = new String();
         String matrix3 = new String();
+        String matrix4 = new String();
 
         int len =  matLenght*16;
         
@@ -86,11 +87,37 @@ class Soal2{
                     q++;
                 }
             }
+            try{
+                o=(matLenght*4)*4;
+                for(int i = 1;i<=matLenght*4;i++){
+                    if(q<o){
+                        matrix4+=outPutCek[q];
+                        if(q==y-1){
+                            matrix4+=" ";
+                            y+=matLenght;
+                        }
+                        q++;
+                    }
+                }
+            }catch(ArrayIndexOutOfBoundsException z){
+                for(int i = 1;i<=matLenght*4;i++){
+                    o=(matLenght*4)*4;
+                    if(q<o){
+                        matrix4+="?";
+                        if(q==y-1){
+                            matrix4+=" ";
+                            y+=matLenght;
+                        }
+                        q++;
+                    }
+                }
+                break;
+            }
         }
         System.out.println(matrix);
         System.out.println(matrix2);
         System.out.println(matrix3);
-
+        System.out.println(matrix4);
         scan.close();
     }
 }
